@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <config>
+	<id>theme-gallery-1</id>
 	<type>theme</type>
 	<view>pc</view>
+	<category>gallery</category>
 	<name>
 		<en>Gallery No. 1</en>
 		<ko>갤러리 1 번 테마</ko>
