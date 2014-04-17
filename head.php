@@ -30,7 +30,7 @@
 			<table width='100%' cellpadding=0 cellspacing=0><tr valign='top'>
 				<td width=400>
 					<div id="gallery_1_logo">
-						<a href="<?php echo G5_URL ?>">
+						<a href="<?=g::url()?>">
 						<?if( file_exists( path_logo() ) ) { ?>
 							<img style='max-width: 250px;' src="<?=url_logo()?>">
 						<?} else {?>
