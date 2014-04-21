@@ -71,9 +71,27 @@
 
 
 <div class='gallery-1-posts-with-image'>
-	<?=latest('x-latest-gallery-1-posts-with-image', bo_table(1), 4, 20)?>
+<?
+	include widget(
+		array(
+			'code'		=> 'x-latest-gallery-1-posts-with-image',
+			'name'		=> 'x-latest-gallery-1-posts-with-image',
+			'default_forum_id' => bo_table(1),
+			'git'		=> 'https://github.com/x-widget/x-latest-gallery-1-posts-with-image',
+		)
+	);
+?>
 </div>
 
 <div class='gallery-1-lower-posts'>
-		<?=latest('x-latest-gallery-1-lower-posts', bo_table(2), 2, 20)?>
+<?
+	include widget(
+		array(
+			'code'		=> 'x-latest-gallery-1-lower-posts',
+			'name'		=> 'x-latest-gallery-1-lower-posts',
+			'default_forum_id' => bo_table(2),
+			'git'		=> 'https://github.com/x-widget/x-latest-gallery-1-lower-posts',
+		)
+	);
+?> 
 </div>
