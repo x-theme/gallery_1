@@ -54,3 +54,11 @@ $(function(){
     }
   </style>
 <![endif]-->
+
+<?if ( preg_match('/msie 7/i', $_SERVER['HTTP_USER_AGENT'] ) ) {?>
+<style>		
+	#gallery_1_main_menu li{
+		display:inline;
+	}
+</style>
+<?}?>
