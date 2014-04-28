@@ -23,7 +23,7 @@
 	overflow: hidden;
 }
 .layout .header .inner #gallery_1_logo img {
-	max-width: 220px;
+	width: 100%;
 	border: 0;
 }
 .layout .header .search_and_top_wrapper #gallery_1_search_text{
