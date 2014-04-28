@@ -32,7 +32,7 @@
 					<div id="gallery_1_logo">
 						<a href="<?=g::url()?>">
 						<?if( file_exists( path_logo() ) ) { ?>
-							<img style='max-width: 250px;' src="<?=url_logo()?>">
+							<img src="<?=url_logo()?>">
 						<?} else {?>
 							<img src='<?=x::url_theme()?>/img/logo.png'>
 						<?}?>
