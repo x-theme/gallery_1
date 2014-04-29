@@ -18,13 +18,10 @@
 }
 
 .layout .header .inner #gallery_1_logo {
-	max-width: 220px;
-	height: 59px;
-	overflow: hidden;
+
 }
 .layout .header .inner #gallery_1_logo img {
-	width: 100%;
-	border: 0;
+	height: 59px;
 }
 .layout .header .search_and_top_wrapper #gallery_1_search_text{
 	border:2px solid #ff8866;
